@@ -4,9 +4,9 @@ from llama_index.core.schema import Document
 from llama_index.embeddings.ollama import OllamaEmbedding
 
 class GuestInfoRetrieverTool:
-    def __init__(self, docs):
+    def __init__(self, docs, model_name="gemma2:2b"):
         # Use Ollama embedding model
-        embed_model = OllamaEmbedding(model_name="llama3:latest")  # Replace with your model
+        embed_model = OllamaEmbedding(model_name=model_name)
         
         # Initialize the index with the Ollama embedding model
         self.index = VectorStoreIndex.from_documents(
