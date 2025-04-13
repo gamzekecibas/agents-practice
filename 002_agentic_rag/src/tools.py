@@ -15,7 +15,7 @@ class GuestInfoRetrieverTool:
         )
         # Get the retriever with hybrid search for better name matching
         self.retriever = self.index.as_retriever(
-            similarity_top_k=3,  # Get more candidates
+            similarity_top_k=3,  
         )
 
     def get_guest_info(self, query: str) -> str:
