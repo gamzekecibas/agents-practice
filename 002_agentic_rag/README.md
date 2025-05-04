@@ -40,7 +40,7 @@ This project is a playground for exploring Agentic Retrieval Augmented Generatio
     ```
 4.  **Install Dependencies:** Install the required Python packages.
     ```bash
-    pip install -r requirements.txt # You'll need to create this file
+    pip install -r requirements.txt 
     ```
     *Note: A `requirements.txt` file was not provided, but you will need to create one containing the necessary libraries like `llama-index-core`, `llama-index-llms-ollama`, `llama-index-tools-duckduckgo`, `datasets`, `huggingface-hub`, `httpx`, `argparse`, etc.*
 
