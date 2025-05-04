@@ -18,6 +18,7 @@ A collection of projects exploring different aspects of AI agent development.
 - Retrieval Augmented Generation with LlamaIndex
 - Custom retriever tool for guest information
 - Ollama integration for local LLM operations
+- For details, please check project [section](https://github.com/gamzekecibas/agents-practice/tree/main/002_agentic_rag)
 
 ## Setup
 
